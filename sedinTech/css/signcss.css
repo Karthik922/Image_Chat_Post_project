@@ -1,0 +1,86 @@
+#user_login
+{
+	min-height:350px;
+	width:500px;
+	margin-left:150px;
+	margin-top:25px;
+	border-radius:10px;
+	border:2px solid #cc0099;
+	
+}
+#user_login legend
+{
+	margin-left:15px;
+	font-size:18px;
+	color:#cc0099;
+}
+#user_table
+{
+	margin:50px;
+	font-size:18px;
+}
+#user_table tr td{
+padding:10px;
+ }
+ #user_table a{
+	 color:#cc0099;
+	 text-decoration:none;
+	 font-weight:bold;
+	 
+ }
+ #user_table a:hover{
+	 color:yellow;
+	 text-decoration:none;
+	 
+ }
+ #user_table input[type="text"],#user_table input[type="password"],select,#user_table input[type="email"]{
+	 width:250px;
+	 height:30px;
+	 border-radius:5px;
+	 font-size:18px;
+	 color:blue;
+ }
+ #user_table input[type="submit"],#user_table input[type="reset"]{
+	 width:100px;
+	 height:30px;
+	 border-radius:5px;
+	 font-size:18px;
+	 color:blue;
+ }
+#user_login tr td #comm
+ {
+	 width:300px;
+	 height:30px;
+	 border-radius:5px;
+	 font-size:18px;
+	 color:blue; 
+	 padding:8px;
+ }
+ #sbtn,#comm{
+	 background:#00ffff;
+	 border:1px solid #00ffff;
+ }
+ #rbtn{
+	 background:#5e0000;
+	 border:1px solid #5e0000;
+ }
+ #sbtn:hover{
+	 background:#5eaeff;
+ }
+ #sbtn:active{
+	 background:yellow;
+ }
+ #rbtn:hover{
+	 background:red;
+ }
+ #rbtn:active{
+	 background:yellow;
+ }
+ .error
+ {
+	 color:red;
+ }
+ .correct
+ {
+	 color:green;
+ }
